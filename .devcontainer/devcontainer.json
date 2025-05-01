@@ -1,0 +1,48 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {},
+    "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+    "ghcr.io/jungaretti/features/vim": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/common-utils:latest": {
+      "installOhMyZsh": true, // For more defailts: https://github.com/devcontainers/features/issues/1035.
+      "installOhMyZshConfig": true,
+      "configureZshAsDefaultShell": true
+    }
+  },
+  "customizations": {
+  "vscode": {
+    "settings": {
+      "workbench": {
+        "iconTheme": "material-icon-theme"
+      },
+      "editor": {
+        "formatOnSave": true,
+        "quickSuggestions": {
+          "strings": "on"
+        }
+      }
+    },
+  "extensions": [
+          "alphabotsec.vscode-eclipse-keybinding",
+          "pkief.material-icon-theme",
+          "aki77.rails-db-schema",
+          "aki77.rails-i18n",
+          "aki77.rails-partial",
+          "bradlc.vscode-tailwindcss",
+          "bung87.vscode-gemfile",
+          "elia.erb-formatter",
+          "emeraldwalk.RunOnSave",
+          "manuelpuyol.erb-linter",
+          "marcoroth.stimulus-lsp",
+          "ms-vscode.live-server",
+          "mtxr.sqltools",
+          "mtxr.sqltools-driver-pg",
+          "waderyan.gitblame",
+          "codeium.codeium"
+        ]
+    }
+  }
+}
