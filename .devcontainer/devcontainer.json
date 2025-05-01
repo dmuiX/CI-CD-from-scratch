@@ -28,18 +28,9 @@
   "extensions": [
           "alphabotsec.vscode-eclipse-keybinding",
           "pkief.material-icon-theme",
-          "aki77.rails-db-schema",
-          "aki77.rails-i18n",
-          "aki77.rails-partial",
-          "bradlc.vscode-tailwindcss",
           "bung87.vscode-gemfile",
-          "elia.erb-formatter",
           "emeraldwalk.RunOnSave",
-          "manuelpuyol.erb-linter",
-          "marcoroth.stimulus-lsp",
           "ms-vscode.live-server",
-          "mtxr.sqltools",
-          "mtxr.sqltools-driver-pg",
           "waderyan.gitblame",
           "codeium.codeium"
         ]
