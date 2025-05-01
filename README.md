@@ -19,20 +19,28 @@
 1. pick a program in a java
 2. checkout app to this github repo
 3. write a pipeline to do test each commit
-4. static code analysis, linting java sonarcloud
-6. create a dockerfile
-7. write a pipeline to create a docker container image from dockerfile
-8. test it,trigger unit tests, security scans, mutation tests
-9. and upload it to ghcr (easiest or dockerhub)
-10. build a server somewhere (maybe digital ocean), install k8s on it, setup a load balancer, dns zone
-11. install argocd on the k8s cluster
-12. create a second repo for infrastructure, apps and manifests connect it to argocd
-13. put external-dns, external-secrets, cert-manager, prom- in the repo
-14. write a pipeline to create a k8s deployment and a service
-15. deploy the stuff on the k8s cluster
-16. create an integration test
-17. smoke test: curl health check
+   1. static code analysis with sonarcloud
+   2. linting
+4. create a dockerfile
+5. write a pipeline to create a docker container image from dockerfile
+   1. trigger unit tests   2. security scans
+   3. mutation tests
+   4. and upload it to ghcr (easiest or dockerhub)
+6.  build a server somewhere (maybe digital ocean)
+    1.  install k8s on it
+    2.  setup a load balancer
+    3.  dns zone
+7.  install argocd on the k8s cluster
+8.  create a second repo for infrastructure, apps and manifests connect it to argocd
+9.  put external-dns, external-secrets, cert-manager, prom- in the repo
+10. write a pipeline to create a k8s deployment and a service
+11. deploy the stuff on the k8s cluster
+12. tests:
+    1.  create an integration test
+    2.  smoke test: curl health check
+    3.  user e2e tests
 
 do the whole thing again for release
-user e2e testd
-canary blue green
+  user e2e testd
+  canary (5%, 10%, 20% ,100%)
+  blue green: One Pipeiline for the new features one for the old
