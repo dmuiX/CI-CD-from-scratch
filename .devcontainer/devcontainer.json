@@ -16,7 +16,7 @@
       "configureZshAsDefaultShell": true
     },
     "ghcr.io/devcontainers-extra/features/apt-packages:1": {
-      "packages": "btop,htop,curl,wget,software-properties-common.inetutils-ping,dnsutils,ncat,bat,nmap"
+      "packages": "btop,htop,curl,wget,software-properties-common,inetutils-ping,dnsutils,ncat,bat,nmap"
     }
   },
   "customizations": {
