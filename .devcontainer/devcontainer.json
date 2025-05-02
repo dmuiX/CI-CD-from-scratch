@@ -1,4 +1,4 @@
-{
+do{
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {},
@@ -13,6 +13,10 @@
     },
     "ghcr.io/devcontainers-extra/features/apt-packages:1": {
       "packages": "btop,htop,curl,wget,software-properties-common.inetutils-ping,dnsutils,ncat,bat,nmap"
+    },
+    "ghcr.io/jpawlowski/devcontainer-features/codespaces-dotfiles:1": {
+      "repository": "dmuiX/dotnet-files-linux",
+      "targetPath": "/home/codespace"
     }
   },
   "customizations": {
