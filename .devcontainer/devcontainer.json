@@ -16,7 +16,7 @@
     },
     "ghcr.io/jpawlowski/devcontainer-features/codespaces-dotfiles:1": {
       "repository": "dmuiX/dotnet-files-linux",
-      "targetPath": "/home/codespace"
+      "targetPath": "~/"
     }
   },
   "customizations": {
