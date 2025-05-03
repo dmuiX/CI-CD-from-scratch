@@ -15,8 +15,9 @@
       "installOhMyZshConfig": true,
       "configureZshAsDefaultShell": true
     },
+    "ghcr.io/devcontainer-community/devcontainer-features/btop:1": {},
     "ghcr.io/wxw-matt/devcontainer-features/apt:latest": {
-      "packages": "vim btop htop curl wget software-properties-common inetutils-ping dnsutils ncat bat nmap"
+      "packages": "vim htop curl wget software-properties-common inetutils-ping dnsutils ncat bat nmap"
     }
   },
   "customizations": {
