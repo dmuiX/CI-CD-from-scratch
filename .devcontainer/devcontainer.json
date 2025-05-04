@@ -1,9 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-    "ghcr.io/jpawlowski/devcontainer-features/codespaces-dotfiles:1": {
-      "repository": "dmuiX/dotnet-files-linux"
-    },
     "ghcr.io/devcontainers/features/java:1": {},
     "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
