@@ -46,7 +46,7 @@ do the whole thing again for release
   blue green: One Pipeiline for the new features one for the old
 
 
-# build the java app:
+## build the java app:
 
 infos in the Dockerfile come from the pom.xml
 
@@ -57,13 +57,13 @@ docker buildx build -t mavenapp:latest ./
 docker run mavenapp
 ```
 
-# devcontainer
+## devcontainer
 
 dotfiles come currently from the github setting
 its also possible to define it as a feature
 
 the setup.sh works anyway independent of where it runs as its reading its path from the env!
 
-# Next step: Integrate the build of the Dockerfile in a github workflow
-
-# Next step: implement tests in the github workflow
+## Next steps
+### Integrate the build of the Dockerfile in a github workflow
+### implement tests in the github workflow
