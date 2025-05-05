@@ -48,6 +48,10 @@ do the whole thing again for release
 
 # build the java app:
 
+infos in the Dockerfile come from the pom.xml
+
+this helped here: https://scalabledeveloper.com/posts/building-java-applications-using-maven-and-docker-multi-stage-builds/
+
 ```bash
 docker buildx build -t mavenapp:latest ./
 docker run mavenapp
@@ -59,3 +63,7 @@ dotfiles come currently from the github setting
 its also possible to define it as a feature
 
 the setup.sh works anyway independent of where it runs as its reading its path from the env!
+
+# Next step: Integrate the build of the Dockerfile in a github workflow
+
+# Next step: implement tests in the github workflow
