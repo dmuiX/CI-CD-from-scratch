@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {},
     "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
@@ -20,7 +20,9 @@
   "vscode": {
     "settings": {
       "workbench": {
-        "iconTheme": "material-icon-theme"
+        "iconTheme": "atom-material-icons",
+        "productIconTheme": "atom-material-icons",
+        "theme": "amoled-github-theme"
       },
       "editor": {
         "formatOnSave": true,
@@ -31,12 +33,16 @@
     },
   "extensions": [
           "alphabotsec.vscode-eclipse-keybinding",
-          "pkief.material-icon-theme",
-          "bung87.vscode-gemfile",
           "emeraldwalk.RunOnSave",
           "ms-vscode.live-server",
           "waderyan.gitblame",
-          "codeium.codeium"
+          "codeium.codeium",
+          "atommaterial.a-file-icon-vscode",
+          "t3m1n4l.amoled-github",
+          "github.remotehub",
+          "ms-kubernetes-tools.vscode-kubernetes-tools",
+          "ms-azuretools.vscode-containers",
+          "donjayamanne.git-extension-pack"
         ]
     }
   }
