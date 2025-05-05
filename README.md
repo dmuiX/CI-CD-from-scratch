@@ -44,3 +44,18 @@ do the whole thing again for release
   user e2e testd
   canary (5%, 10%, 20% ,100%)
   blue green: One Pipeiline for the new features one for the old
+
+
+# build the java app:
+
+```bash
+docker buildx build -t mavenapp:latest ./
+docker run mavenapp
+```
+
+# devcontainer
+
+dotfiles come currently from the github setting
+its also possible to define it as a feature
+
+the setup.sh works anyway independent of where it runs as its reading its path from the env!
