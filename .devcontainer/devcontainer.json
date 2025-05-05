@@ -1,10 +1,8 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
   "features": {
-    "ghcr.io/devcontainers/features/java:1": {},
     "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
-    "ghcr.io/jungaretti/features/vim": {},
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/common-utils:latest": {
       "installOhMyZsh": true, // For more defailts: https://github.com/devcontainers/features/issues/1035.
@@ -22,7 +20,7 @@
       "workbench": {
         "iconTheme": "atom-material-icons",
         "productIconTheme": "atom-material-icons",
-        "theme": "amoled-github-theme"
+        "colorTheme": "amoled-github-theme"
       },
       "editor": {
         "formatOnSave": true,
